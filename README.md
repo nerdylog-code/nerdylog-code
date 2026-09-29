@@ -15,6 +15,14 @@ boundaries.
 
 ## Featured Engineering Work
 
+### [Fiscal Document Automation](https://github.com/nerdylog-code/fiscal-document-automation)
+Document conference end to end: reads DANFE/PDF and NF-e XML, applies real fiscal rules (CNPJ and access-key
+check digits, key cross-checks against the document, declared total versus item sum, CFOP compatibility,
+duplicate detection), reconciles against the client's spreadsheet and delivers a review workbook.
+Standard library only, so it runs on an end user's machine with no install. The underlying way of working
+was applied in a real fiscal process that went from **more than a week of three people to about an hour**
+(environment details not disclosed).
+
 ### [Agent Engineering Sprint](https://github.com/nerdylog-code/agent-engineering-sprint)
 A local-first agent engineering lab covering structured tool execution, hybrid
 RAG, adversarial evaluation, MCP, JWT/RBAC tenant controls, observability, and
